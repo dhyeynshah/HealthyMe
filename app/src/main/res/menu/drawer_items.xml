@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/Doctors">
+
+        <item
+            android:icon="@drawable/files"
+            android:id="@+id/navFiles"
+            android:title="Files"/>
+
+        <item
+            android:icon="@drawable/appointments"
+            android:id="@+id/navAppointments"
+            android:title="Appointments"/>
+    </group>
+
+    <group
+        android:id="@+id/causeneffect">
+
+        <item
+            android:icon="@drawable/reminders"
+            android:id="@+id/navReminders"
+            android:title="Reminders"/>
+
+        <item
+            android:icon="@drawable/symptoms"
+            android:id="@+id/navSymptoms"
+            android:title="Symptoms"/>
+
+        <item
+            android:icon="@drawable/medicine"
+            android:id="@+id/navMedicine"
+            android:title="Medicine"/>
+
+    </group>
+
+
+    <group
+        android:id="@+id/trackers">
+
+        <item
+            android:icon="@drawable/steps"
+            android:id="@+id/navSteps"
+            android:title="Steps"/>
+
+        <item
+            android:icon="@drawable/sleep"
+            android:id="@+id/navSleep"
+            android:title="Sleep"/>
+
+    </group>
+
+    <group
+        android:id="@+id/settings">
+
+        <item
+            android:icon="@drawable/access"
+            android:id="@+id/navAccess"
+            android:title="Access"/>
+
+
+        <item
+            android:icon="@drawable/settings"
+            android:id="@+id/navSettings"
+            android:title="Settings"/>
+
+    </group>
+
+</menu>
